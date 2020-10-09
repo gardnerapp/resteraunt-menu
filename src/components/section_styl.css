@@ -1,0 +1,44 @@
+.SectionName {
+    font-style: italic;
+    font-family: "Segoe UI", "monospace";
+    padding: 20px;
+    content: inherit;
+    height: 8px;
+    border-radius: 10%;
+    border: dodgerblue;
+    border-style: inset;
+    bottom: 10%;
+    padding-bottom: 35px;
+
+
+}
+
+div {
+    cursor: pointer;
+    right: 200px;
+
+}
+
+ul {
+    margin: auto;
+}
+
+.Image1{
+     padding: 20px;
+    width: 150px;
+    height: 150px;
+     object-fit: cover;
+    border-radius: 50%;
+   float: right;
+
+}
+
+.Image2{
+     padding: 20px;
+    width: 150px;
+    height: 150px;
+     object-fit: cover;
+    border-radius: 50%;
+   float: left;
+
+}

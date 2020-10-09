@@ -1,26 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Section from "./components/section";
+import Header from "./components/header";
+import first from "./components/data/data";
+import seventh from "./components/data/seventh";
+import second from "./components/data/second";
+import third from "./components/data/third";
+import fourth from "./components/data/fourth";
+import fifth from "./components/data/fifth";
+import sixth from "./components/data/sixth";
+import eight from "./components/data/eigth";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div>
+            <Header/>
+            <Section menu={first}/>
+            <Section menu={second}/>
+            <Section menu={third}/>
+            <Section menu={fourth}/>
+            <Section menu={fifth}/>
+            <Section menu={sixth}/>
+            <Section menu={seventh}/>
+            <Section menu={eight}/>
+        </div>
+    )
 }
 
 export default App;

@@ -1,0 +1,24 @@
+div{
+    background-color: black;
+    color: mintcream;
+    alignment: center;
+    text-align: center;
+    padding: 5px;
+}
+.ItemName{
+
+    font-style: italic;
+    font-family: "Segoe UI", "monospace";
+}
+
+
+.ItemDescription {
+    font-style: normal;
+    font-family: monospace, Phosphate;
+}
+
+h2{
+    display: inline;
+    padding: 10px;
+    bottom: 5%;
+}
